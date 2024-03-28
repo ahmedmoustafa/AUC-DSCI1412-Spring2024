@@ -4,4 +4,4 @@
 | - | - | - | - | - |
 | Lecture 3: Control Flow | [slides](https://ahmedmoustafa.github.io/AUC-DSCI1412-Spring2024/lectures/lecture03_python_control_flow.html) | [pdf](pdfs/lecture03_python_control_flow.pdf) | [notebook (Feb 21)](https://colab.research.google.com/drive/1mejOIcaJoz7j5KvtiYwk-d57oWGZWoOu?usp=sharing) |  |
 | Lecture 4: Functions | [slides](https://ahmedmoustafa.github.io/AUC-DSCI1412-Spring2024/lectures/lecture04_functions.html) | [pdf](pdfs/lecture04_functions.pdf) | [notebook (Feb 21)](https://colab.research.google.com/drive/1mejOIcaJoz7j5KvtiYwk-d57oWGZWoOu?usp=sharing) |  |
-
+| Lecture 5: Functions - Problemset I | [slides](https://ahmedmoustafa.github.io/AUC-DSCI1412-Spring2024/lectures/lecture05_functions_problemset_i.html) | [pdf](pdfs/lecture05_functions_problemset_i.pdf) | [notebook (Feb 28)](https://colab.research.google.com/drive/1Aq2shU4BuKpVf_clM1mXn6BmtAvcSXxv?usp=sharing) |  |

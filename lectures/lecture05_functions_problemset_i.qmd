@@ -1,0 +1,147 @@
+---
+title: "Functions in Python"
+subtitle: "Problem Set - Part I"
+format:
+  revealjs:
+    slide-number: true
+    preview-links: true
+    scrollable: true
+---
+
+## Problem 1: Even numbers
+
+Write a Python function `filter_even_numbers` that takes a list of numbers and returns a new list containing only the even numbers.
+
+- Example Input: `[1, 2, 3, 4]`
+- Example Output: `[2, 4]`
+
+::: {.fragment}
+
+- Solution
+
+```{python}
+#| echo: true
+
+def filter_even_numbers(numbers):
+  even_numbers = [] # create an empty list for the even numbers
+  for num in numbers:
+    if num % 2 == 0: # if the number is divisable by 2 then it is even
+      even_numbers.append (num) # if so, add it to the list of even numbers
+  return even_numbers
+
+filter_even_numbers([1, 2, 3, 4])
+```
+
+:::
+
+::: {.fragment}
+
+- Solution #2
+
+```{python}
+#| echo: true
+
+def filter_even_numbers_v2(numbers):
+  return [num for num in numbers if num % 2 == 0]
+
+filter_even_numbers_v2([1, 2, 3, 4])
+```
+
+:::
+
+
+## Problem 2: Fizz Buzz
+
+Write a Python function `fizzbuzz` that takes a number and returns `"Fizz"` if the number is divisible by 3, `"Buzz"` if the number is divisible by 5, and `"FizzBuzz"` if the number is divisible by both 3 and 5. Otherwise, returns the number.
+
+::: {.fragment}
+
+- Solution
+
+```{python}
+#| echo: true
+def fizzbuzz(number):
+  if number % 3 == 0 and number % 5 == 0:
+    return "FizzBuzz"
+  elif number % 3 == 0:
+    return "Fizz"
+  elif number % 5 == 0:
+    return "Buzz"
+  else:
+    return number
+```
+
+:::
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+fizzbuzz(15)
+```
+
+:::
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+fizzbuzz(5)
+```
+
+:::
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+fizzbuzz(3)
+```
+
+:::
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+fizzbuzz(1)
+```
+
+:::
+
+## Problem 3: Second largest
+
+Write a Python function `find_second_largest` that takes a list of positive numbers and returns the second largest number in the list *without* sorting the list.
+
+- Example Input: `[2, 5, 7, 1, 8, 3, 9]`
+- Example Output: `8`
+
+::: {.fragment}
+
+- Solution
+
+```{python}
+#| echo: true
+def find_second_largest(numbers):
+  largest = -1
+  second_largest = -1
+  for num in numbers:
+    if num > largest:
+      second_largest = largest
+      largest = num
+    elif num > second_largest:
+      second_largest = num
+  return second_largest
+
+find_second_largest([2, 5, 7, 1, 8, 3, 9])
+```
+
+:::
+
+## Problem 4: Most common letter
+
+Write a Python function `find_most_common_letter` that takes a string and returns the most common letter in the string.
+
+- Example Input: `"Hello, World!"`
+- Example Output: `'L'`
+
