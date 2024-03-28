@@ -1,0 +1,265 @@
+---
+title: "Functions in Python"
+format:
+  revealjs:
+    slide-number: true
+    preview-links: true
+    scrollable: true
+---
+
+## Big $O$ Notation
+
+Big $O$ notation is used to describe the performance or complexity of an algorithm. It specifically describes the **worst-case** scenario, and can be used to describe the execution time required or the space used by an algorithm.
+
+![Comparison computational complexity](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Comparison_computational_complexity.svg/480px-Comparison_computational_complexity.svg.png)
+
+## Functions
+
+- Functions are **reusable** blocks of code that perform a specific task
+- They can take input parameters and return output values
+- Functions are essential in modular programming, as they help organize code and make it more readable
+
+## Defining a Function
+
+- To define a function in Python, use the keyword `def` followed by the function name and input parameters in parentheses
+- The function body is **indented** below the header line
+- Use the keyword `return` to specify the output value(s) of the function
+
+
+```{python}
+#| echo: true
+def add_numbers(x, y):
+    result = x + y
+    return result
+
+type(add_numbers)
+```
+
+## Calling a Function
+
+To call a function, use its name followed by input values in parentheses
+The function returns the output value(s), which can be stored in a variable or used directly
+
+
+```{python}
+#| echo: true
+sum = add_numbers(2, 3)
+print(sum)
+```
+
+## Default Parameter Values
+
+- Functions can have default values for input parameters, which are used when no value is provided
+- Default values are specified in the function header
+
+
+```{python}
+#| echo: true
+def greet(name, greeting = "Hello"):
+    print(greeting + ", " + name)
+
+greet("Alice")
+```
+
+
+```{python}
+#| echo: true
+greet("Bob", "Hi")
+```
+
+## Variable-Length Arguments
+
+- Variable-length arguments allow a function to accept any number of input arguments
+- They are useful when the number of input arguments is unknown or can vary
+
+```{python}
+#| echo: true
+def add_numbers(*args):
+    result = 0
+    for num in args:
+        result += num
+    return result
+
+add_numbers
+```
+
+
+```{python}
+#| echo: true
+add_numbers(1, 2)
+```
+
+```{python}
+#| echo: true
+add_numbers(1, 2, 3)
+```
+
+## Function Annotation
+
+```{python}
+#| echo: true
+def add_numbers(*args):
+    
+    """
+    Computes the sum of n numbers
+    
+    Parameters:
+    args: A tuple of numbers
+    
+    Returns:
+    int: The sum
+    """        
+    
+    result = 0
+    for num in args:
+        result += num
+    return result
+
+help(add_numbers)
+```
+
+
+## Lambda Functions
+
+- Lambda functions are **anonymous** functions that can be defined inline and used immediately
+- They are useful for *simple* tasks that don't require a named function
+- Lambda functions can only have **one** expression
+
+```{python}
+#| echo: true
+double = lambda x: x * 2
+print(double(3))
+```
+
+## Recursion
+
+- Recursion is a technique where a function calls itself
+- It is useful for solving problems that can be broken down into smaller subproblems
+
+```{python}
+#| echo: true
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))
+```
+
+## Global vs Local Variables
+
+- Global variables are defined outside of any function and can be accessed from anywhere in the program
+- Local variables are defined inside a function and can only be accessed within that function
+
+```{python}
+#| echo: true
+global_var = 10
+
+def my_func():
+    local_var = 20
+    print(global_var)
+    print(local_var)
+
+my_func()
+```
+
+```{python}
+#| echo: true
+print(global_var)
+```
+
+```{python}
+#| echo: true
+# print(local_var)
+```
+
+# Exercises
+
+## Exercise 1
+
+Python function that takes a list of numbers and returns their product
+
+```python
+multiply_numbers([2, 3, 4])
+```
+
+```
+24
+```
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+def multiply_numbers(numbers):
+  product = 1
+  for num in numbers:
+    product *= num
+  return product
+```
+
+:::
+
+
+## Exercise 2
+
+Write a Python function to find the maximum and minimum numbers in a list
+
+```python
+find_min_max ([2, 3, 4])
+```
+
+```
+(2, 4)
+```
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+def find_min_max(numbers):
+  min_num = numbers[0] # Set the min to the first number in the list
+  max_num = numbers[0] # Set the max to the first number in the list
+  for num in numbers:
+    if num > max_num:
+      max_num = num
+    elif num < min_num:
+      min_num = num
+  return (min_num, max_num)
+
+find_min_max ([2, 3, 4])
+```
+
+:::
+
+## Exercise 3
+
+Write a Python function that takes a list of strings and returns the longest string.
+
+```python
+find_longest_string(["Vicky", "Cristina", "Barcelona"])
+```
+
+```
+'Barcelona'
+```
+
+::: {.fragment}
+
+```{python}
+#| echo: true
+
+def find_longest_string(strings):
+  # Set the longest string to first string in the list
+  longest_string = strings[0]
+  for string in strings:
+    # Compare the length of the current string to the longest string so far
+    if len(string) > len(longest_string):
+      longest_string = string
+  return longest_string
+
+find_longest_string(["Vicky", "Cristina", "Barcelona"])
+```
+
+:::
