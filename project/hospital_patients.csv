@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,Condition,Treatment,TreatmentCost,RecoveryTime,Smoking,Drinking,Exercise
+1,69,Female,Arthritis,Physical Therapy,176.37,29,Never,Current,Moderate
+2,32,Female,Cold,Warm Fluids,150.13,36,Current,Former,Low
+3,89,Female,Arthritis,Medication,199.23,31,Never,Current,Low
+4,78,Female,Heart Disease,Surgery,4750.08,78,Former,Current,High
+5,38,Female,Fever,Rest,188.38,31,Former,Never,Low
+6,92,Male,Arthritis,Medication,202.71,35,Former,Former,High
+7,92,Female,Diabetes,Medication,92.21,22,Former,Never,Low
+8,41,Male,Heart Disease,Medication,219.88,35,Current,Former,High
+9,20,Female,Fever,Medication,51.48,2,Never,Never,Moderate
+10,39,Male,Fever,Rest,199.09,34,Former,Current,Moderate
+11,70,Female,Heart Disease,Surgery,4890.15,40,Current,Current,Low
+12,19,Male,Injury,Physical Therapy,200.67,27,Former,Former,High
+13,47,Female,Arthritis,Physical Therapy,189.74,21,Former,Never,Moderate
+14,55,Male,Arthritis,Medication,189.64,27,Former,Never,Low
+15,19,Female,Cold,Medication,59.53,4,Never,Current,Low
+16,81,Male,Heart Disease,Medication,203.13,26,Never,Current,High
+17,77,Female,Heart Disease,Medication,183.05,29,Never,Former,High
+18,38,Male,Injury,Physical Therapy,190.98,23,Former,Current,Low
+19,50,Male,Diabetes,Diet Control,236.17,30,Current,Former,High
+20,93,Female,Diabetes,Medication,102.5,16,Current,Former,High
+21,75,Female,Heart Disease,Medication,180.86,23,Current,Former,Moderate
+22,39,Male,Injury,Surgery,8698.75,118,Former,Former,High
+23,66,Female,Arthritis,Physical Therapy,212.55,30,Never,Current,Low
+24,76,Male,Diabetes,Medication,111.06,28,Current,Former,High
+25,59,Male,Diabetes,Diet Control,185.84,37,Former,Current,Low
+26,77,Male,Arthritis,Medication,183.57,38,Former,Former,Low
+27,97,Female,Arthritis,Medication,204.48,33,Current,Current,High
+28,32,Male,Injury,Physical Therapy,183.08,30,Current,Former,High
+29,79,Male,Diabetes,Medication,99.23,28,Former,Current,High
+30,79,Female,Arthritis,Physical Therapy,227.62,21,Current,Never,Moderate
+31,64,Female,Heart Disease,Surgery,5381.72,79,Former,Former,Moderate
+32,79,Female,Diabetes,Medication,96.94,28,Current,Former,High
+33,68,Female,Arthritis,Medication,191.77,34,Never,Never,Low
+34,72,Male,Arthritis,Physical Therapy,185.71,31,Former,Never,High
+35,81,Male,Arthritis,Medication,222.01,30,Never,Former,Moderate
+36,20,Male,Injury,Surgery,9128.23,75,Current,Current,Moderate
+37,68,Male,Heart Disease,Surgery,4754.74,52,Former,Former,High
+38,24,Female,Cold,Medication,52.83,5,Current,Current,Low
+39,38,Male,Fever,Rest,217.24,36,Former,Never,Low
+40,90,Male,Heart Disease,Medication,206.21,34,Current,Current,Moderate
+41,56,Female,Arthritis,Physical Therapy,228.07,31,Never,Former,Moderate
+42,35,Male,Injury,Physical Therapy,208.67,35,Never,Never,Moderate
+43,21,Male,Injury,Surgery,10974.26,65,Current,Never,Low
+44,77,Male,Arthritis,Medication,177.29,21,Never,Former,Moderate
+45,31,Male,Fever,Rest,195.38,21,Never,Former,Moderate
+46,26,Male,Fever,Rest,216.27,35,Current,Never,Low
+47,70,Male,Arthritis,Medication,214.48,21,Former,Current,Moderate
+48,19,Female,Fever,Medication,53.05,3,Current,Current,Moderate
+49,77,Female,Arthritis,Physical Therapy,202.41,26,Former,Current,High
+50,88,Male,Arthritis,Physical Therapy,186.96,20,Never,Former,Moderate
+51,61,Male,Heart Disease,Medication,198.82,23,Never,Never,High
+52,25,Female,Fever,Rest,200.94,30,Never,Current,Moderate
+53,64,Male,Arthritis,Physical Therapy,204.83,39,Never,Never,Moderate
+54,52,Male,Heart Disease,Medication,180.64,26,Never,Current,High
+55,95,Male,Heart Disease,Medication,194.68,37,Former,Never,Moderate
+56,98,Female,Heart Disease,Surgery,3995.23,33,Former,Former,High
+57,53,Male,Heart Disease,Medication,155.16,36,Former,Former,Moderate
+58,67,Female,Heart Disease,Surgery,5079.83,71,Current,Former,High
+59,21,Male,Injury,Surgery,9396.85,75,Never,Current,High
+60,19,Female,Cold,Medication,56.95,5,Never,Former,Moderate
+61,23,Female,Cold,Warm Fluids,189.69,30,Never,Former,Moderate
+62,71,Male,Diabetes,Medication,108.73,28,Current,Former,High
+63,21,Female,Fever,Rest,183.36,33,Current,Never,Low
+64,71,Male,Arthritis,Physical Therapy,186.5,36,Current,Never,Moderate
+65,80,Female,Heart Disease,Surgery,4737.83,37,Never,Never,Moderate
+66,35,Male,Injury,Surgery,9117.44,82,Former,Never,Low
+67,61,Male,Arthritis,Physical Therapy,174.45,35,Current,Never,Low
+68,51,Female,Diabetes,Diet Control,231.55,31,Current,Never,High
+69,91,Male,Heart Disease,Medication,184.83,29,Former,Never,Moderate
+70,79,Male,Arthritis,Physical Therapy,197.35,35,Current,Former,High
+71,31,Female,Cold,Medication,58.53,6,Former,Former,Moderate
+72,65,Male,Diabetes,Diet Control,158.8,27,Never,Current,Low
+73,32,Male,Injury,Surgery,10024.97,87,Former,Former,High
+74,89,Female,Heart Disease,Surgery,3954.07,83,Former,Never,Moderate
+75,95,Female,Diabetes,Medication,102.22,28,Never,Never,Moderate
+76,79,Male,Arthritis,Medication,159.13,23,Current,Current,Low
+77,57,Male,Arthritis,Medication,223.5,23,Never,Former,Low
+78,97,Female,Diabetes,Diet Control,191.82,28,Current,Former,Moderate
+79,99,Female,Diabetes,Diet Control,243.92,22,Current,Current,Low
+80,70,Male,Diabetes,Diet Control,179.3,24,Former,Never,Low
+81,41,Female,Diabetes,Medication,104.94,11,Never,Never,High
+82,43,Male,Heart Disease,Surgery,5371.22,67,Former,Never,Moderate
+83,77,Male,Diabetes,Diet Control,209.43,20,Never,Never,High
+84,58,Male,Heart Disease,Medication,194.9,29,Never,Current,Low
+85,46,Male,Arthritis,Medication,187.03,31,Former,Former,Moderate
+86,32,Male,Injury,Surgery,9993.25,113,Current,Never,Low
+87,62,Female,Heart Disease,Medication,227.54,21,Current,Former,Low
+88,82,Female,Diabetes,Medication,104.31,27,Never,Former,Moderate
+89,88,Female,Arthritis,Medication,187.35,27,Current,Never,Low
+90,26,Female,Cold,Medication,51.5,5,Former,Never,High
+91,18,Male,Injury,Surgery,9733.39,115,Former,Never,Moderate
+92,25,Male,Injury,Physical Therapy,174.53,35,Former,Former,Low
+93,80,Male,Diabetes,Diet Control,202.95,30,Never,Current,Low
+94,28,Male,Cold,Medication,47.08,3,Never,Never,Low
+95,98,Female,Arthritis,Physical Therapy,198.57,21,Current,Former,Moderate
+96,25,Male,Injury,Physical Therapy,234.4,23,Former,Former,High
+97,52,Male,Arthritis,Medication,235.51,22,Former,Never,Low
+98,52,Female,Arthritis,Physical Therapy,206.15,28,Never,Current,Low
+99,50,Female,Heart Disease,Surgery,5074.52,43,Never,Never,Low
+100,22,Female,Fever,Rest,181.99,38,Never,Never,Moderate
+101,58,Female,Heart Disease,Surgery,4436.79,63,Former,Current,Low
+102,45,Male,Heart Disease,Medication,225.45,23,Former,Never,Low
+103,24,Male,Cold,Medication,83.13,5,Current,Never,Low
+104,90,Female,Heart Disease,Surgery,4753.84,34,Former,Current,Moderate
+105,89,Male,Heart Disease,Surgery,4725.4,75,Current,Former,High
+106,29,Male,Cold,Warm Fluids,215.03,35,Current,Former,Moderate
+107,51,Male,Heart Disease,Medication,176.55,30,Former,Former,High
+108,50,Female,Arthritis,Medication,193.76,23,Current,Former,High
+109,65,Male,Heart Disease,Medication,212.88,37,Current,Former,Moderate
+110,40,Female,Arthritis,Medication,180.29,24,Never,Never,Low
+111,79,Male,Diabetes,Medication,114.28,28,Former,Current,High
+112,54,Male,Arthritis,Medication,215.04,21,Current,Former,Low
+113,61,Male,Arthritis,Physical Therapy,188.64,31,Current,Current,High
+114,52,Female,Heart Disease,Surgery,4673.16,59,Current,Former,Low
+115,82,Male,Diabetes,Diet Control,163.98,39,Former,Never,Low
+116,64,Female,Diabetes,Medication,93.31,22,Never,Former,Moderate
+117,95,Female,Diabetes,Diet Control,215.46,32,Never,Former,Low
+118,20,Female,Fever,Rest,182.54,36,Former,Current,High
+119,18,Male,Injury,Surgery,11589.01,74,Former,Current,Low
+120,22,Male,Cold,Warm Fluids,195.52,39,Former,Never,Low
+121,31,Male,Injury,Surgery,9865.2,107,Former,Current,Low
+122,44,Male,Arthritis,Physical Therapy,216.75,32,Never,Current,High
+123,26,Female,Cold,Medication,61.07,4,Current,Current,High
+124,96,Female,Diabetes,Medication,96.66,26,Current,Never,High
+125,32,Female,Fever,Medication,52.44,3,Former,Never,Low
+126,59,Male,Heart Disease,Medication,239.85,37,Former,Never,Moderate
+127,94,Female,Diabetes,Medication,96.67,27,Current,Current,High
+128,68,Male,Heart Disease,Surgery,4651.48,40,Never,Current,Low
+129,80,Female,Heart Disease,Surgery,4799.01,70,Former,Never,High
+130,69,Male,Arthritis,Physical Therapy,222.42,32,Former,Current,Moderate
+131,21,Male,Injury,Physical Therapy,203.48,30,Never,Current,Low
+132,40,Female,Diabetes,Diet Control,182.98,23,Never,Former,High
+133,32,Female,Fever,Medication,52.4,4,Never,Never,High
+134,60,Female,Heart Disease,Medication,191.86,30,Former,Never,Moderate
+135,46,Female,Arthritis,Medication,183.52,37,Never,Current,High
+136,53,Male,Diabetes,Diet Control,220.29,35,Former,Current,Low
+137,30,Female,Cold,Warm Fluids,215.63,29,Former,Former,Low
+138,49,Female,Diabetes,Diet Control,216.77,31,Never,Never,Moderate
+139,88,Female,Diabetes,Medication,112.93,27,Current,Never,Moderate
+140,76,Male,Diabetes,Medication,105.04,15,Never,Current,Moderate
+141,45,Male,Diabetes,Diet Control,187.93,32,Current,Never,Low
+142,83,Female,Heart Disease,Medication,229.17,25,Never,Current,Moderate
+143,59,Male,Arthritis,Physical Therapy,202.16,25,Never,Former,High
+144,62,Female,Arthritis,Medication,170.59,30,Former,Current,High
+145,79,Male,Diabetes,Medication,88.42,22,Former,Former,Low
+146,74,Male,Arthritis,Physical Therapy,213.1,30,Former,Current,High
+147,23,Male,Cold,Medication,62.34,4,Former,Former,Moderate
+148,45,Male,Arthritis,Physical Therapy,181.24,34,Former,Former,High
+149,45,Female,Diabetes,Diet Control,237.73,32,Former,Never,Moderate
+150,61,Female,Diabetes,Medication,97.28,21,Former,Current,High
+151,47,Female,Arthritis,Medication,202.22,24,Current,Never,Low
+152,79,Male,Arthritis,Physical Therapy,234.73,21,Current,Never,Moderate
+153,92,Female,Diabetes,Medication,101.98,27,Former,Current,High
+154,79,Female,Heart Disease,Surgery,5092.75,47,Current,Never,Low
+155,18,Female,Cold,Medication,53.36,3,Never,Never,High
+156,44,Male,Heart Disease,Medication,206.94,28,Current,Never,Low
+157,79,Male,Arthritis,Physical Therapy,199.27,34,Former,Current,High
+158,94,Male,Heart Disease,Surgery,5547.79,56,Current,Never,Moderate
+159,20,Female,Cold,Warm Fluids,217.3,27,Never,Never,Moderate
+160,87,Female,Heart Disease,Medication,183.61,33,Current,Never,Moderate
+161,89,Female,Diabetes,Medication,104.68,19,Former,Current,Moderate
+162,44,Male,Heart Disease,Surgery,4975.95,74,Never,Former,Moderate
+163,26,Male,Fever,Medication,59.29,3,Never,Former,High
+164,79,Female,Heart Disease,Medication,203.39,28,Current,Former,High
+165,54,Male,Arthritis,Physical Therapy,195.91,35,Never,Former,High
+166,68,Male,Heart Disease,Medication,228.26,37,Never,Never,High
+167,61,Male,Arthritis,Physical Therapy,181.5,32,Never,Current,Moderate
+168,41,Male,Heart Disease,Medication,190.7,37,Former,Never,Low
+169,96,Female,Heart Disease,Surgery,5822.05,31,Never,Current,Moderate
+170,76,Male,Diabetes,Diet Control,180.24,20,Current,Never,High
+171,49,Male,Arthritis,Medication,179.36,37,Current,Former,Moderate
+172,69,Male,Heart Disease,Medication,202.75,38,Never,Former,Moderate
+173,79,Male,Arthritis,Physical Therapy,217.35,21,Current,Current,Moderate
+174,75,Female,Arthritis,Medication,219.96,23,Never,Never,Low
+175,69,Female,Diabetes,Medication,113.3,21,Current,Former,Moderate
+176,29,Male,Fever,Rest,186.56,22,Never,Current,Moderate
+177,56,Male,Diabetes,Diet Control,205.51,28,Never,Never,Low
+178,19,Male,Injury,Physical Therapy,211.32,29,Never,Current,Moderate
+179,20,Male,Injury,Surgery,8873.89,85,Former,Never,Moderate
+180,73,Male,Diabetes,Medication,109.69,14,Current,Never,Moderate
+181,98,Male,Diabetes,Medication,84.96,29,Never,Never,Moderate
+182,76,Female,Diabetes,Diet Control,186.06,38,Former,Current,Moderate
+183,19,Male,Injury,Physical Therapy,221.91,29,Former,Current,High
+184,19,Female,Cold,Medication,62.44,3,Never,Never,Moderate
+185,71,Female,Diabetes,Diet Control,189.21,33,Never,Former,Low
+186,18,Male,Fever,Medication,56.14,1,Never,Never,Moderate
+187,36,Female,Cold,Warm Fluids,168.72,30,Never,Current,High
+188,19,Female,Fever,Medication,48.37,2,Never,Never,Low
+189,70,Female,Arthritis,Physical Therapy,214.93,36,Current,Current,Low
+190,61,Female,Arthritis,Physical Therapy,203.13,26,Never,Never,Moderate
+191,49,Female,Diabetes,Diet Control,215.99,30,Never,Never,High
+192,87,Female,Arthritis,Physical Therapy,223.84,37,Current,Former,Moderate
+193,49,Male,Arthritis,Physical Therapy,192.29,33,Former,Former,High
+194,85,Female,Diabetes,Diet Control,252.94,33,Current,Current,High
+195,72,Female,Diabetes,Medication,105.94,18,Former,Never,Moderate
+196,92,Female,Diabetes,Medication,97.17,24,Former,Current,High
+197,73,Male,Diabetes,Medication,96.36,27,Current,Never,Moderate
+198,34,Female,Cold,Medication,44.76,5,Never,Never,High
+199,55,Male,Arthritis,Medication,194.19,31,Former,Never,Low
+200,41,Female,Heart Disease,Medication,198.42,23,Never,Former,Moderate
+201,86,Male,Heart Disease,Surgery,5457.13,86,Current,Current,High
+202,87,Male,Arthritis,Physical Therapy,195.44,35,Former,Never,Low
+203,28,Female,Cold,Warm Fluids,203.17,29,Never,Never,Low
+204,33,Female,Fever,Rest,191.0,26,Former,Current,Low
+205,90,Male,Heart Disease,Surgery,5742.23,47,Former,Current,Low
+206,76,Female,Diabetes,Diet Control,221.46,26,Current,Never,Moderate
+207,87,Male,Heart Disease,Medication,194.13,37,Never,Former,High
+208,97,Male,Diabetes,Medication,88.08,12,Never,Former,Low
+209,20,Male,Fever,Medication,52.46,3,Former,Never,High
+210,37,Male,Cold,Medication,67.75,4,Never,Former,High
+211,76,Male,Diabetes,Diet Control,175.35,30,Former,Current,High
+212,53,Female,Heart Disease,Surgery,4522.18,68,Current,Former,Moderate
+213,36,Male,Cold,Medication,57.16,3,Current,Current,Moderate
+214,84,Male,Diabetes,Medication,79.1,24,Never,Current,Low
+215,36,Female,Fever,Medication,47.65,4,Current,Current,High
+216,37,Male,Injury,Surgery,12565.65,115,Current,Current,Moderate
+217,88,Female,Heart Disease,Surgery,4640.66,41,Never,Former,Moderate
+218,69,Female,Heart Disease,Surgery,5316.15,73,Former,Current,Moderate
+219,50,Female,Heart Disease,Surgery,5063.24,53,Current,Never,Low
+220,57,Male,Arthritis,Physical Therapy,182.39,20,Never,Current,Moderate
+221,56,Male,Heart Disease,Medication,176.54,22,Never,Never,High
+222,99,Male,Heart Disease,Surgery,4552.25,79,Never,Current,Moderate
+223,18,Female,Fever,Rest,188.26,27,Current,Current,Moderate
+224,28,Male,Fever,Rest,154.8,37,Current,Former,Low
+225,74,Female,Heart Disease,Surgery,5306.74,46,Former,Current,High
+226,67,Male,Arthritis,Medication,193.77,39,Former,Current,Moderate
+227,40,Female,Diabetes,Diet Control,200.96,25,Former,Former,High
+228,48,Male,Diabetes,Diet Control,201.56,24,Former,Former,High
+229,59,Male,Arthritis,Medication,240.1,31,Former,Never,Moderate
+230,24,Male,Cold,Warm Fluids,195.85,28,Former,Former,Low
+231,33,Female,Cold,Warm Fluids,205.56,28,Never,Never,High
+232,77,Female,Arthritis,Medication,167.48,36,Former,Current,Moderate
+233,19,Male,Fever,Medication,48.89,1,Current,Never,High
+234,18,Male,Cold,Warm Fluids,206.68,36,Former,Former,High
+235,65,Female,Arthritis,Medication,172.49,35,Current,Current,High
+236,29,Female,Fever,Medication,53.7,3,Former,Never,Moderate
+237,86,Female,Heart Disease,Surgery,5135.3,45,Never,Never,High
+238,54,Male,Diabetes,Diet Control,189.07,33,Never,Never,High
+239,49,Female,Arthritis,Medication,197.95,36,Current,Current,Low
+240,26,Male,Fever,Medication,48.05,2,Former,Never,Moderate
+241,36,Female,Fever,Rest,240.74,31,Never,Never,Moderate
+242,65,Male,Heart Disease,Surgery,5283.26,45,Never,Former,High
+243,97,Female,Arthritis,Physical Therapy,235.38,27,Former,Never,Low
+244,20,Female,Fever,Medication,43.75,1,Current,Current,High
+245,37,Female,Cold,Warm Fluids,202.97,35,Current,Former,High
+246,41,Female,Diabetes,Medication,92.57,13,Current,Current,Moderate
+247,71,Female,Arthritis,Medication,189.35,35,Never,Former,Low
+248,50,Male,Arthritis,Physical Therapy,213.16,29,Former,Former,High
+249,41,Female,Heart Disease,Medication,195.71,39,Never,Never,Moderate
+250,92,Female,Heart Disease,Medication,159.5,34,Never,Current,High
+251,89,Female,Arthritis,Medication,168.23,23,Never,Never,High
+252,53,Male,Heart Disease,Surgery,4754.09,74,Never,Former,Low
+253,55,Female,Heart Disease,Surgery,5176.5,77,Former,Never,Low
+254,42,Male,Heart Disease,Medication,214.98,30,Never,Former,Low
+255,35,Female,Fever,Medication,57.94,2,Never,Former,High
+256,99,Female,Heart Disease,Surgery,4257.73,83,Current,Current,Low
+257,83,Male,Arthritis,Medication,198.37,28,Never,Current,Moderate
+258,71,Female,Heart Disease,Surgery,4554.6,58,Former,Current,High
+259,52,Male,Diabetes,Diet Control,176.45,22,Never,Current,Low
+260,97,Male,Heart Disease,Surgery,4926.32,39,Former,Never,High
+261,78,Female,Heart Disease,Surgery,5015.71,49,Former,Current,High
+262,58,Male,Arthritis,Medication,203.27,28,Former,Current,Moderate
+263,50,Female,Arthritis,Medication,212.93,21,Current,Current,Moderate
+264,85,Female,Heart Disease,Surgery,5002.02,61,Current,Former,Moderate
+265,50,Male,Diabetes,Diet Control,212.17,31,Never,Former,High
+266,31,Male,Fever,Medication,50.21,1,Never,Current,High
+267,38,Male,Cold,Medication,73.17,6,Never,Former,Moderate
+268,65,Male,Diabetes,Medication,106.61,29,Former,Former,High
+269,37,Female,Cold,Medication,65.65,5,Former,Never,Moderate
+270,25,Female,Cold,Warm Fluids,183.99,33,Former,Former,Moderate
+271,24,Male,Cold,Medication,65.0,6,Never,Never,Low
+272,84,Female,Arthritis,Physical Therapy,177.75,32,Never,Former,Moderate
+273,34,Female,Fever,Medication,52.26,1,Never,Current,Low
+274,50,Female,Diabetes,Diet Control,185.99,27,Never,Former,Moderate
+275,65,Female,Arthritis,Medication,212.52,27,Current,Former,High
+276,93,Male,Heart Disease,Surgery,4974.8,38,Current,Never,Low
+277,76,Male,Arthritis,Physical Therapy,174.87,36,Current,Current,High
+278,39,Female,Fever,Rest,191.88,22,Never,Never,High
+279,47,Male,Heart Disease,Surgery,4775.43,60,Current,Current,Moderate
+280,55,Male,Diabetes,Diet Control,191.03,36,Current,Current,Moderate
+281,68,Male,Heart Disease,Surgery,4036.53,33,Never,Never,High
+282,71,Female,Heart Disease,Medication,245.15,36,Current,Former,Moderate
+283,25,Female,Fever,Rest,196.66,21,Never,Current,Moderate
+284,44,Female,Diabetes,Medication,99.89,10,Never,Former,Moderate
+285,44,Male,Heart Disease,Medication,203.43,26,Never,Never,High
+286,38,Female,Cold,Warm Fluids,198.29,38,Former,Never,Low
+287,47,Female,Diabetes,Diet Control,169.17,20,Never,Never,Low
+288,45,Male,Arthritis,Medication,201.87,36,Current,Never,High
+289,81,Female,Diabetes,Medication,109.4,18,Current,Current,Moderate
+290,86,Female,Diabetes,Medication,92.88,11,Never,Never,Moderate
+291,78,Male,Heart Disease,Medication,158.8,26,Former,Former,Low
+292,65,Male,Heart Disease,Medication,206.84,25,Former,Former,High
+293,36,Male,Fever,Medication,51.23,4,Former,Current,High
+294,21,Female,Cold,Warm Fluids,188.27,21,Current,Never,Moderate
+295,52,Female,Heart Disease,Medication,188.42,37,Former,Current,Moderate
+296,81,Female,Diabetes,Medication,100.34,24,Former,Current,Moderate
+297,66,Male,Heart Disease,Medication,186.84,26,Never,Current,High
+298,34,Male,Injury,Physical Therapy,177.56,38,Former,Never,Low
+299,61,Female,Diabetes,Diet Control,200.5,26,Former,Former,High
+300,47,Female,Arthritis,Physical Therapy,211.5,26,Former,Former,High
+301,63,Male,Diabetes,Diet Control,210.65,35,Never,Current,High
+302,23,Male,Injury,Physical Therapy,150.64,31,Never,Current,Low
+303,54,Male,Diabetes,Diet Control,186.79,34,Former,Former,Moderate
+304,41,Male,Diabetes,Diet Control,223.06,34,Current,Former,Moderate
+305,63,Female,Heart Disease,Surgery,5364.09,39,Current,Never,High
+306,70,Male,Heart Disease,Surgery,4510.34,87,Never,Current,High
+307,77,Female,Arthritis,Medication,224.85,22,Former,Never,Low
+308,80,Female,Arthritis,Medication,219.3,38,Current,Former,Low
+309,49,Female,Heart Disease,Medication,194.07,39,Former,Former,Moderate
+310,50,Male,Heart Disease,Surgery,4259.01,39,Never,Former,High
+311,84,Male,Heart Disease,Surgery,4974.41,83,Current,Former,Low
+312,35,Male,Cold,Medication,58.83,3,Never,Never,Low
+313,42,Male,Diabetes,Medication,88.47,14,Former,Former,High
+314,71,Female,Diabetes,Diet Control,239.72,31,Never,Current,High
+315,75,Male,Heart Disease,Surgery,4586.51,81,Never,Former,High
+316,84,Male,Arthritis,Physical Therapy,184.91,26,Never,Current,High
+317,63,Female,Heart Disease,Medication,204.78,30,Never,Former,High
+318,41,Male,Diabetes,Medication,111.69,14,Current,Never,High
+319,49,Female,Diabetes,Medication,108.07,27,Former,Current,Low
+320,64,Female,Heart Disease,Surgery,5394.49,42,Current,Never,High
+321,40,Female,Heart Disease,Surgery,4094.2,70,Former,Former,Moderate
+322,83,Female,Diabetes,Diet Control,187.37,35,Former,Never,High
+323,44,Female,Diabetes,Medication,93.34,24,Former,Former,Moderate
+324,19,Female,Fever,Medication,46.89,1,Former,Never,Moderate
+325,34,Female,Fever,Medication,47.88,3,Former,Never,Moderate
+326,50,Female,Diabetes,Diet Control,222.82,29,Current,Current,High
+327,26,Male,Cold,Warm Fluids,174.54,24,Former,Former,High
+328,60,Male,Arthritis,Physical Therapy,201.35,34,Never,Never,Moderate
+329,65,Male,Heart Disease,Surgery,5019.35,86,Current,Former,High
+330,56,Male,Arthritis,Medication,204.07,29,Current,Current,Low
+331,59,Female,Arthritis,Physical Therapy,199.69,36,Former,Never,Low
+332,43,Male,Diabetes,Diet Control,180.39,39,Never,Former,Low
+333,67,Female,Heart Disease,Surgery,4667.34,71,Never,Never,Low
+334,42,Male,Diabetes,Medication,104.85,26,Former,Never,High
+335,41,Male,Heart Disease,Medication,210.94,27,Former,Never,Moderate
+336,30,Male,Fever,Rest,211.96,34,Never,Never,High
+337,77,Female,Heart Disease,Medication,202.62,21,Current,Current,Low
+338,24,Male,Fever,Medication,45.81,2,Current,Current,High
+339,74,Female,Diabetes,Medication,96.55,28,Former,Former,High
+340,53,Female,Diabetes,Medication,123.3,17,Current,Former,Low
+341,62,Male,Heart Disease,Medication,188.55,27,Current,Never,Moderate
+342,37,Male,Fever,Rest,202.92,30,Never,Never,High
+343,82,Male,Arthritis,Physical Therapy,221.85,34,Current,Never,High
+344,25,Female,Cold,Warm Fluids,200.38,32,Never,Current,Low
+345,33,Male,Injury,Physical Therapy,192.79,37,Former,Never,Moderate
+346,31,Female,Cold,Warm Fluids,171.93,37,Former,Former,Low
+347,93,Female,Diabetes,Diet Control,197.81,36,Never,Never,Low
+348,32,Male,Fever,Rest,213.45,32,Never,Current,High
+349,83,Male,Diabetes,Medication,97.69,29,Former,Never,Moderate
+350,49,Female,Arthritis,Medication,159.93,26,Never,Current,Low
+351,80,Female,Arthritis,Medication,245.48,31,Former,Current,High
+352,68,Female,Diabetes,Medication,111.13,25,Former,Current,Low
+353,42,Male,Heart Disease,Medication,195.57,30,Former,Current,High
+354,75,Female,Diabetes,Diet Control,227.82,33,Former,Former,Moderate
+355,80,Male,Heart Disease,Surgery,5341.04,74,Former,Current,Low
+356,79,Female,Diabetes,Diet Control,226.64,26,Former,Former,Moderate
+357,39,Female,Cold,Medication,59.68,3,Current,Former,Moderate
+358,75,Male,Heart Disease,Surgery,5428.57,76,Current,Never,High
+359,75,Female,Heart Disease,Medication,209.2,30,Former,Never,Low
+360,66,Male,Heart Disease,Surgery,4870.17,83,Current,Current,Low
+361,69,Male,Arthritis,Medication,180.03,35,Never,Never,High
+362,59,Female,Diabetes,Diet Control,180.27,30,Never,Current,High
+363,87,Male,Arthritis,Physical Therapy,183.66,29,Former,Never,Moderate
+364,32,Male,Injury,Physical Therapy,217.81,21,Current,Current,Low
+365,71,Female,Diabetes,Diet Control,205.69,35,Never,Never,Low
+366,77,Male,Arthritis,Medication,161.28,36,Never,Never,High
+367,25,Male,Cold,Medication,60.71,5,Never,Former,High
+368,70,Male,Heart Disease,Medication,194.96,37,Never,Never,High
+369,77,Female,Arthritis,Physical Therapy,197.75,31,Current,Never,Low
+370,22,Male,Injury,Physical Therapy,183.26,27,Never,Current,Low
+371,85,Female,Arthritis,Physical Therapy,206.97,22,Never,Former,Moderate
+372,23,Female,Fever,Rest,221.01,39,Never,Current,High
+373,64,Male,Arthritis,Physical Therapy,187.16,22,Former,Never,Moderate
+374,72,Male,Heart Disease,Surgery,4644.35,38,Never,Current,Low
+375,57,Male,Arthritis,Physical Therapy,193.94,21,Never,Former,Moderate
+376,69,Female,Heart Disease,Medication,215.13,22,Current,Current,Moderate
+377,33,Male,Cold,Medication,47.16,5,Never,Never,Moderate
+378,30,Male,Injury,Physical Therapy,170.05,28,Never,Current,High
+379,47,Male,Arthritis,Medication,215.26,23,Never,Never,Low
+380,36,Male,Fever,Rest,228.31,21,Former,Former,High
+381,34,Male,Fever,Medication,50.53,1,Current,Former,Moderate
+382,80,Female,Heart Disease,Surgery,4927.59,38,Current,Current,High
+383,36,Female,Cold,Medication,56.3,3,Former,Former,Low
+384,75,Male,Diabetes,Diet Control,203.03,21,Former,Current,Low
+385,72,Male,Diabetes,Medication,95.59,11,Current,Never,Moderate
+386,79,Male,Heart Disease,Surgery,4606.34,67,Never,Current,Moderate
+387,40,Male,Arthritis,Physical Therapy,181.85,26,Current,Never,High
+388,26,Female,Cold,Medication,59.46,6,Former,Former,Low
+389,29,Male,Fever,Medication,45.78,4,Never,Never,Low
+390,18,Female,Cold,Warm Fluids,212.32,21,Current,Never,High
+391,75,Female,Heart Disease,Surgery,5549.73,76,Never,Never,Low
+392,18,Male,Cold,Warm Fluids,196.07,29,Never,Never,Moderate
+393,51,Female,Heart Disease,Surgery,4762.98,79,Former,Never,Moderate
+394,65,Female,Diabetes,Diet Control,200.7,38,Current,Current,High
+395,18,Female,Cold,Warm Fluids,194.8,35,Former,Never,High
+396,33,Female,Fever,Rest,182.59,34,Current,Never,High
+397,78,Male,Diabetes,Medication,86.69,14,Current,Never,Moderate
+398,81,Male,Heart Disease,Medication,207.28,28,Never,Never,High
+399,80,Female,Heart Disease,Medication,193.23,34,Never,Never,Low
+400,86,Male,Arthritis,Physical Therapy,218.63,26,Never,Never,High
+401,39,Male,Cold,Medication,74.14,6,Former,Former,Low
+402,84,Male,Arthritis,Medication,174.32,37,Never,Current,Moderate
+403,93,Male,Diabetes,Medication,92.69,29,Former,Never,Low
+404,43,Male,Heart Disease,Surgery,5026.0,46,Never,Current,Low
+405,33,Female,Fever,Medication,51.99,4,Former,Former,Low
+406,68,Male,Heart Disease,Medication,208.01,34,Current,Former,Moderate
+407,74,Male,Diabetes,Medication,117.59,20,Former,Never,Low
+408,46,Male,Arthritis,Medication,221.85,21,Former,Current,Low
+409,95,Male,Heart Disease,Surgery,4624.06,44,Former,Never,High
+410,86,Female,Arthritis,Physical Therapy,207.06,22,Current,Former,High
+411,64,Female,Arthritis,Physical Therapy,210.81,26,Former,Former,High
+412,79,Female,Heart Disease,Medication,238.73,25,Current,Current,Low
+413,86,Female,Heart Disease,Surgery,4182.16,35,Never,Never,Low
+414,93,Male,Arthritis,Physical Therapy,189.59,24,Never,Current,Moderate
+415,33,Female,Fever,Rest,182.98,23,Current,Current,Low
+416,65,Male,Arthritis,Physical Therapy,178.6,34,Former,Former,Low
+417,56,Male,Arthritis,Physical Therapy,178.97,26,Never,Current,Moderate
+418,50,Male,Heart Disease,Surgery,6699.06,38,Former,Former,Low
+419,40,Male,Heart Disease,Medication,208.53,32,Former,Never,Moderate
+420,27,Male,Fever,Medication,49.02,1,Current,Current,Moderate
+421,86,Female,Diabetes,Diet Control,241.03,21,Never,Current,High
+422,51,Female,Diabetes,Medication,109.09,26,Current,Never,Low
+423,69,Female,Heart Disease,Medication,194.56,31,Current,Current,High
+424,27,Female,Fever,Rest,224.67,38,Current,Never,Low
+425,36,Male,Fever,Rest,208.65,38,Current,Former,High
+426,75,Female,Heart Disease,Surgery,5434.11,34,Former,Former,Moderate
+427,18,Male,Injury,Physical Therapy,194.87,25,Never,Current,Moderate
+428,86,Female,Diabetes,Diet Control,223.57,21,Never,Former,Moderate
+429,21,Male,Injury,Physical Therapy,178.54,32,Never,Former,Moderate
+430,33,Male,Cold,Medication,54.88,5,Former,Never,Low
+431,41,Female,Diabetes,Medication,95.26,29,Former,Former,Low
+432,97,Male,Heart Disease,Surgery,4724.66,75,Current,Former,High
+433,19,Male,Fever,Rest,215.75,38,Current,Former,Low
+434,49,Female,Arthritis,Medication,200.67,30,Current,Never,Low
+435,41,Male,Diabetes,Medication,119.41,17,Current,Current,High
+436,29,Female,Fever,Rest,201.85,35,Never,Never,Moderate
+437,67,Female,Diabetes,Medication,101.62,24,Current,Current,High
+438,52,Female,Diabetes,Medication,90.36,18,Former,Current,High
+439,50,Male,Arthritis,Medication,217.36,35,Former,Former,Moderate
+440,50,Male,Diabetes,Medication,84.41,20,Former,Former,High
+441,78,Male,Arthritis,Medication,182.11,35,Current,Never,High
+442,68,Female,Heart Disease,Medication,187.6,33,Never,Never,High
+443,60,Male,Diabetes,Medication,97.17,14,Never,Never,Low
+444,29,Female,Cold,Warm Fluids,204.32,25,Current,Former,Moderate
+445,84,Female,Diabetes,Diet Control,232.31,26,Current,Current,Moderate
+446,82,Male,Heart Disease,Medication,229.78,32,Former,Never,High
+447,50,Female,Diabetes,Medication,111.33,28,Former,Current,Low
+448,57,Male,Diabetes,Diet Control,202.43,34,Never,Former,Moderate
+449,91,Male,Diabetes,Diet Control,181.46,36,Former,Former,Moderate
+450,60,Male,Diabetes,Diet Control,233.59,32,Former,Former,High
+451,61,Male,Diabetes,Diet Control,195.05,26,Current,Former,High
+452,46,Male,Diabetes,Medication,104.95,10,Never,Current,High
+453,30,Female,Cold,Medication,65.36,6,Current,Current,Moderate
+454,29,Female,Cold,Medication,65.32,3,Never,Never,High
+455,63,Female,Diabetes,Medication,83.43,16,Current,Current,High
+456,19,Male,Cold,Medication,58.17,5,Never,Current,High
+457,52,Male,Arthritis,Medication,219.77,36,Former,Current,Low
+458,98,Male,Diabetes,Medication,104.89,17,Never,Never,High
+459,25,Female,Fever,Rest,199.24,35,Never,Current,Moderate
+460,43,Male,Diabetes,Diet Control,201.48,29,Current,Current,High
+461,91,Female,Diabetes,Medication,96.69,17,Never,Current,Moderate
+462,51,Female,Heart Disease,Surgery,4941.8,46,Never,Former,Low
+463,24,Male,Fever,Medication,55.6,1,Never,Current,Low
+464,85,Male,Arthritis,Medication,214.81,34,Current,Never,High
+465,75,Female,Heart Disease,Medication,174.81,30,Never,Never,Moderate
+466,92,Male,Heart Disease,Surgery,5921.96,36,Current,Never,High
+467,46,Female,Arthritis,Medication,179.0,25,Former,Never,High
+468,53,Male,Heart Disease,Surgery,5187.42,42,Current,Former,Moderate
+469,38,Male,Fever,Rest,196.89,26,Never,Never,Moderate
+470,53,Female,Arthritis,Physical Therapy,191.88,31,Former,Former,Moderate
+471,27,Male,Cold,Medication,61.01,4,Never,Former,Moderate
+472,90,Female,Diabetes,Medication,93.67,17,Current,Former,Moderate
+473,41,Male,Heart Disease,Medication,180.82,29,Former,Never,Low
+474,81,Female,Arthritis,Physical Therapy,187.27,21,Former,Never,Low
+475,66,Female,Arthritis,Physical Therapy,214.81,28,Former,Former,Low
+476,53,Male,Diabetes,Medication,92.25,25,Never,Former,Moderate
+477,99,Female,Diabetes,Medication,105.05,29,Former,Never,Moderate
+478,41,Male,Heart Disease,Medication,231.37,30,Former,Current,Moderate
+479,40,Male,Arthritis,Physical Therapy,189.8,33,Former,Current,High
+480,79,Male,Heart Disease,Medication,187.98,22,Former,Current,Low
+481,54,Female,Heart Disease,Surgery,5724.21,33,Current,Never,Low
+482,29,Female,Fever,Rest,201.12,26,Never,Never,High
+483,72,Male,Arthritis,Medication,239.63,23,Never,Former,High
+484,30,Male,Cold,Warm Fluids,169.21,26,Former,Never,Low
+485,40,Female,Arthritis,Medication,158.86,35,Current,Never,Moderate
+486,47,Male,Diabetes,Medication,94.26,23,Former,Never,Low
+487,34,Male,Cold,Medication,63.22,5,Never,Former,Moderate
+488,79,Female,Diabetes,Diet Control,201.05,35,Never,Former,Low
+489,30,Male,Injury,Physical Therapy,211.92,25,Never,Current,Low
+490,76,Female,Diabetes,Medication,108.28,11,Former,Current,High
+491,36,Male,Injury,Surgery,8852.66,98,Former,Never,High
+492,66,Female,Heart Disease,Surgery,4065.04,66,Current,Never,Moderate
+493,29,Male,Cold,Medication,61.11,4,Current,Former,Moderate
+494,78,Male,Heart Disease,Medication,211.21,32,Never,Current,Low
+495,36,Female,Cold,Medication,55.7,3,Never,Current,High
+496,93,Male,Heart Disease,Surgery,5012.13,63,Current,Current,Moderate
+497,26,Female,Fever,Medication,41.95,1,Never,Never,Moderate
+498,88,Male,Arthritis,Medication,176.36,20,Current,Never,Moderate
+499,45,Female,Heart Disease,Surgery,5393.97,41,Former,Never,Low
+500,95,Female,Diabetes,Medication,115.46,29,Never,Former,Moderate
+501,69,Female,Diabetes,Diet Control,184.07,23,Never,Current,Moderate
+502,33,Female,Fever,Rest,170.54,24,Current,Former,High
+503,86,Male,Heart Disease,Medication,201.72,24,Former,Current,High
+504,29,Male,Cold,Medication,67.44,3,Never,Never,High
+505,42,Female,Diabetes,Diet Control,230.26,29,Never,Former,Low
+506,69,Female,Arthritis,Physical Therapy,215.53,27,Current,Former,High
+507,70,Female,Diabetes,Medication,100.46,10,Former,Never,High
+508,40,Male,Heart Disease,Surgery,4870.12,71,Current,Current,High
+509,33,Male,Cold,Medication,67.79,5,Former,Current,High
+510,74,Male,Arthritis,Physical Therapy,185.63,32,Former,Current,Moderate
+511,56,Male,Heart Disease,Medication,202.37,34,Current,Current,Low
+512,70,Female,Arthritis,Physical Therapy,177.36,36,Current,Never,Moderate
+513,59,Female,Diabetes,Medication,119.09,26,Former,Never,Moderate
+514,75,Female,Diabetes,Diet Control,245.59,27,Current,Never,Low
+515,56,Male,Heart Disease,Medication,194.11,25,Never,Never,Moderate
+516,31,Male,Fever,Rest,186.97,30,Never,Former,High
+517,22,Male,Cold,Medication,59.89,3,Never,Former,Low
+518,52,Female,Heart Disease,Medication,188.85,24,Never,Former,Moderate
+519,92,Female,Diabetes,Diet Control,205.23,26,Never,Never,Moderate
+520,35,Male,Cold,Warm Fluids,173.55,34,Current,Current,High
+521,93,Female,Diabetes,Medication,105.32,13,Former,Former,Moderate
+522,26,Male,Injury,Physical Therapy,238.24,38,Current,Former,Moderate
+523,91,Male,Arthritis,Physical Therapy,159.96,32,Never,Never,Moderate
+524,75,Female,Heart Disease,Surgery,4790.73,46,Never,Current,Low
+525,34,Male,Cold,Medication,67.26,4,Current,Current,Low
+526,24,Female,Cold,Warm Fluids,210.84,33,Current,Current,Moderate
+527,63,Male,Arthritis,Physical Therapy,217.81,28,Former,Never,Moderate
+528,30,Female,Cold,Warm Fluids,216.2,31,Never,Current,High
+529,57,Female,Diabetes,Medication,103.13,28,Current,Former,Low
+530,59,Female,Heart Disease,Medication,186.51,28,Former,Former,Low
+531,26,Male,Cold,Warm Fluids,181.99,27,Never,Former,Low
+532,67,Male,Heart Disease,Surgery,4442.64,86,Never,Never,Moderate
+533,44,Female,Heart Disease,Medication,200.37,28,Never,Current,High
+534,83,Female,Arthritis,Medication,172.62,39,Current,Never,High
+535,22,Male,Fever,Rest,191.21,21,Never,Current,Moderate
+536,46,Male,Heart Disease,Surgery,4421.18,31,Never,Never,Moderate
+537,54,Male,Diabetes,Medication,87.13,17,Former,Former,High
+538,55,Female,Heart Disease,Surgery,5279.36,45,Current,Never,High
+539,25,Male,Fever,Medication,48.82,3,Former,Never,Low
+540,82,Male,Arthritis,Medication,239.8,26,Current,Never,Moderate
+541,34,Female,Fever,Rest,156.77,31,Never,Former,Low
+542,88,Male,Diabetes,Medication,97.95,22,Former,Never,High
+543,62,Male,Arthritis,Medication,258.34,31,Current,Never,Low
+544,21,Male,Injury,Surgery,7936.99,117,Current,Former,High
+545,53,Female,Heart Disease,Surgery,5390.54,56,Never,Current,High
+546,87,Female,Heart Disease,Surgery,5010.28,31,Never,Never,Low
+547,48,Female,Arthritis,Medication,204.36,30,Former,Former,Moderate
+548,36,Female,Cold,Warm Fluids,214.18,33,Former,Never,Low
+549,78,Female,Arthritis,Medication,195.79,39,Current,Former,Low
+550,71,Female,Heart Disease,Surgery,4245.99,39,Former,Current,Moderate
+551,56,Female,Diabetes,Diet Control,208.53,21,Never,Current,Moderate
+552,91,Male,Arthritis,Medication,217.31,39,Former,Never,Low
+553,36,Male,Cold,Medication,52.24,4,Former,Former,High
+554,56,Female,Heart Disease,Surgery,5062.98,42,Current,Current,Low
+555,84,Male,Arthritis,Medication,161.45,22,Never,Current,High
+556,62,Male,Arthritis,Physical Therapy,192.26,39,Current,Former,Moderate
+557,30,Female,Fever,Medication,47.38,2,Never,Never,Moderate
+558,75,Male,Diabetes,Medication,94.87,17,Never,Current,High
+559,37,Male,Cold,Warm Fluids,180.06,31,Current,Current,Low
+560,89,Male,Diabetes,Medication,109.96,26,Former,Current,Moderate
+561,78,Male,Heart Disease,Medication,197.15,39,Current,Never,High
+562,56,Male,Heart Disease,Medication,218.48,24,Former,Current,High
+563,18,Female,Fever,Medication,50.12,2,Current,Former,Low
+564,20,Female,Fever,Rest,171.1,35,Current,Never,High
+565,94,Female,Diabetes,Medication,104.58,18,Former,Current,High
+566,79,Male,Heart Disease,Surgery,4193.0,89,Former,Former,Low
+567,80,Female,Diabetes,Diet Control,224.85,29,Former,Former,Moderate
+568,42,Male,Heart Disease,Medication,194.87,32,Current,Never,Moderate
+569,73,Male,Diabetes,Medication,95.36,14,Former,Former,Moderate
+570,50,Male,Diabetes,Diet Control,218.88,39,Former,Never,High
+571,55,Male,Heart Disease,Surgery,5164.61,79,Former,Never,High
+572,23,Female,Cold,Medication,54.87,6,Never,Never,Low
+573,75,Female,Diabetes,Diet Control,205.9,36,Former,Former,High
+574,61,Male,Arthritis,Medication,175.87,24,Former,Never,High
+575,62,Female,Arthritis,Physical Therapy,235.22,32,Former,Never,Moderate
+576,49,Male,Heart Disease,Medication,197.49,22,Never,Former,High
+577,62,Female,Heart Disease,Medication,161.13,24,Never,Never,High
+578,78,Female,Heart Disease,Surgery,5830.5,73,Former,Current,High
+579,64,Male,Diabetes,Diet Control,180.95,38,Former,Former,Low
+580,38,Female,Cold,Warm Fluids,186.37,38,Former,Former,High
+581,97,Male,Heart Disease,Medication,191.1,36,Former,Former,Low
+582,92,Female,Diabetes,Diet Control,194.85,37,Never,Current,Moderate
+583,53,Male,Diabetes,Diet Control,194.1,37,Former,Never,High
+584,36,Male,Cold,Warm Fluids,198.05,27,Never,Former,Low
+585,37,Female,Cold,Medication,64.58,6,Current,Former,Moderate
+586,74,Female,Heart Disease,Medication,185.07,28,Never,Former,High
+587,35,Male,Cold,Medication,48.66,6,Current,Current,Low
+588,64,Female,Arthritis,Medication,175.5,29,Never,Current,Low
+589,66,Female,Arthritis,Physical Therapy,212.3,21,Never,Current,Moderate
+590,31,Male,Cold,Medication,51.87,5,Never,Never,High
+591,32,Male,Fever,Medication,43.33,2,Former,Never,High
+592,48,Female,Diabetes,Medication,91.28,16,Never,Current,High
+593,18,Male,Cold,Medication,56.08,4,Former,Never,Low
+594,71,Male,Arthritis,Medication,189.76,39,Never,Current,High
+595,20,Male,Fever,Medication,54.39,4,Never,Never,Low
+596,33,Female,Fever,Medication,46.15,1,Current,Never,Low
+597,74,Female,Arthritis,Physical Therapy,208.37,35,Never,Current,Moderate
+598,92,Male,Arthritis,Physical Therapy,161.24,38,Former,Former,Low
+599,29,Female,Fever,Rest,185.67,39,Current,Former,Moderate
+600,91,Male,Diabetes,Medication,86.88,10,Current,Never,Moderate
+601,33,Female,Cold,Warm Fluids,208.22,21,Never,Never,High
+602,89,Male,Heart Disease,Medication,210.71,33,Never,Never,Moderate
+603,93,Male,Diabetes,Diet Control,203.41,39,Current,Never,High
+604,41,Female,Arthritis,Physical Therapy,187.74,29,Former,Never,Moderate
+605,45,Male,Diabetes,Diet Control,206.65,38,Never,Never,Low
+606,25,Female,Fever,Medication,37.97,4,Current,Current,High
+607,53,Female,Diabetes,Diet Control,167.89,37,Former,Former,Low
+608,25,Male,Fever,Medication,47.89,3,Never,Former,High
+609,75,Male,Heart Disease,Medication,203.84,28,Current,Current,Low
+610,77,Female,Heart Disease,Surgery,5239.63,83,Current,Current,Moderate
+611,67,Male,Arthritis,Physical Therapy,202.54,39,Never,Former,High
+612,45,Male,Arthritis,Medication,180.11,29,Former,Former,High
+613,58,Male,Diabetes,Medication,93.45,13,Former,Never,High
+614,81,Male,Diabetes,Medication,101.91,21,Current,Former,Moderate
+615,44,Male,Heart Disease,Medication,200.75,27,Former,Never,Low
+616,80,Female,Arthritis,Physical Therapy,181.92,25,Current,Never,Moderate
+617,34,Female,Fever,Medication,47.92,4,Never,Former,Moderate
+618,90,Male,Arthritis,Medication,170.61,20,Former,Never,Moderate
+619,50,Male,Arthritis,Physical Therapy,207.65,39,Never,Never,Low
+620,94,Male,Heart Disease,Surgery,5337.88,73,Current,Current,Moderate
+621,46,Female,Heart Disease,Medication,213.23,21,Never,Former,High
+622,30,Male,Injury,Physical Therapy,243.15,38,Former,Current,Moderate
+623,63,Female,Arthritis,Physical Therapy,161.23,26,Never,Never,Low
+624,52,Female,Arthritis,Physical Therapy,202.54,30,Former,Never,High
+625,23,Female,Cold,Warm Fluids,173.13,30,Former,Current,Low
+626,99,Male,Heart Disease,Surgery,5689.25,84,Former,Current,Moderate
+627,86,Female,Diabetes,Diet Control,200.03,39,Former,Current,Low
+628,64,Male,Heart Disease,Surgery,5299.52,77,Former,Never,High
+629,42,Female,Diabetes,Diet Control,198.8,24,Current,Former,Low
+630,83,Male,Arthritis,Physical Therapy,198.43,26,Never,Never,High
+631,27,Female,Cold,Medication,82.89,5,Current,Current,High
+632,73,Male,Heart Disease,Medication,198.94,34,Never,Former,Moderate
+633,47,Female,Heart Disease,Medication,236.62,24,Never,Current,Moderate
+634,22,Male,Injury,Surgery,9080.37,88,Never,Never,High
+635,50,Male,Heart Disease,Surgery,4766.78,80,Current,Former,Low
+636,82,Male,Arthritis,Physical Therapy,162.65,28,Former,Former,High
+637,35,Male,Injury,Surgery,11047.5,88,Former,Never,Moderate
+638,66,Female,Heart Disease,Surgery,5360.72,47,Current,Current,Low
+639,28,Female,Cold,Warm Fluids,199.81,22,Former,Current,High
+640,43,Male,Diabetes,Medication,96.45,21,Never,Current,Moderate
+641,80,Female,Heart Disease,Medication,179.51,27,Former,Never,High
+642,76,Male,Diabetes,Medication,91.78,19,Former,Current,High
+643,44,Male,Heart Disease,Surgery,4927.96,54,Former,Former,High
+644,66,Female,Heart Disease,Surgery,5541.53,64,Never,Current,Low
+645,94,Male,Heart Disease,Surgery,4978.87,30,Former,Current,Moderate
+646,50,Male,Heart Disease,Surgery,4860.79,34,Former,Former,Moderate
+647,18,Female,Fever,Medication,36.9,4,Former,Former,High
+648,38,Male,Injury,Physical Therapy,208.65,25,Current,Current,High
+649,72,Male,Heart Disease,Medication,182.09,38,Current,Former,High
+650,23,Male,Fever,Rest,168.28,39,Former,Never,Low
+651,98,Male,Diabetes,Medication,89.73,27,Current,Former,Moderate
+652,86,Female,Arthritis,Medication,191.02,38,Current,Never,High
+653,22,Female,Cold,Warm Fluids,198.34,21,Never,Former,Moderate
+654,20,Female,Cold,Medication,53.75,6,Current,Never,High
+655,70,Male,Heart Disease,Medication,213.45,26,Current,Never,Moderate
+656,40,Male,Heart Disease,Medication,236.87,27,Former,Current,High
+657,70,Female,Arthritis,Physical Therapy,229.25,32,Never,Former,Low
+658,54,Male,Arthritis,Physical Therapy,153.36,34,Never,Former,High
+659,91,Male,Diabetes,Medication,81.56,12,Never,Former,High
+660,91,Male,Arthritis,Physical Therapy,173.07,34,Current,Never,High
+661,34,Male,Injury,Physical Therapy,218.77,33,Former,Current,High
+662,95,Female,Arthritis,Medication,200.08,26,Never,Former,High
+663,90,Female,Arthritis,Medication,212.12,36,Never,Current,Moderate
+664,18,Female,Cold,Medication,64.83,4,Current,Current,Moderate
+665,68,Male,Heart Disease,Medication,179.21,39,Never,Never,Low
+666,62,Female,Heart Disease,Surgery,6216.32,32,Former,Former,High
+667,94,Female,Heart Disease,Medication,169.34,38,Never,Current,Moderate
+668,21,Male,Fever,Rest,174.73,37,Former,Former,Moderate
+669,79,Male,Diabetes,Medication,95.82,18,Former,Former,High
+670,82,Female,Diabetes,Diet Control,179.29,21,Former,Former,High
+671,49,Female,Diabetes,Medication,104.51,11,Current,Current,Low
+672,51,Female,Diabetes,Diet Control,207.88,22,Current,Never,Low
+673,89,Female,Heart Disease,Surgery,5426.09,81,Former,Never,Moderate
+674,56,Male,Heart Disease,Surgery,5002.46,49,Former,Current,Low
+675,43,Female,Arthritis,Physical Therapy,223.5,26,Never,Former,Moderate
+676,51,Female,Arthritis,Medication,198.43,26,Never,Former,Low
+677,71,Male,Diabetes,Medication,119.98,19,Never,Never,High
+678,20,Female,Fever,Medication,49.48,3,Current,Current,Low
+679,67,Male,Diabetes,Medication,82.89,11,Never,Current,Moderate
+680,29,Male,Fever,Rest,203.05,26,Former,Never,Low
+681,82,Male,Arthritis,Medication,201.66,25,Former,Current,Moderate
+682,71,Female,Diabetes,Diet Control,205.79,25,Current,Current,Moderate
+683,22,Female,Fever,Rest,195.96,32,Current,Never,Low
+684,74,Male,Diabetes,Diet Control,202.56,35,Never,Never,Low
+685,34,Female,Fever,Medication,47.9,4,Current,Current,Moderate
+686,64,Female,Diabetes,Medication,95.48,19,Former,Current,High
+687,40,Male,Heart Disease,Surgery,4865.13,38,Former,Never,Low
+688,96,Male,Heart Disease,Surgery,4634.64,83,Current,Never,Moderate
+689,31,Female,Fever,Rest,217.76,38,Former,Former,High
+690,83,Male,Arthritis,Medication,168.34,37,Current,Current,Moderate
+691,92,Female,Arthritis,Physical Therapy,209.31,25,Former,Current,Low
+692,68,Female,Diabetes,Medication,109.65,29,Never,Never,Moderate
+693,55,Female,Diabetes,Medication,104.52,13,Current,Never,Moderate
+694,81,Female,Arthritis,Medication,185.64,25,Current,Former,Moderate
+695,55,Male,Diabetes,Diet Control,203.88,39,Current,Former,Low
+696,67,Male,Arthritis,Physical Therapy,174.23,34,Former,Never,High
+697,99,Male,Diabetes,Diet Control,187.66,25,Never,Current,High
+698,47,Male,Heart Disease,Surgery,5420.8,75,Current,Former,High
+699,96,Female,Heart Disease,Surgery,5470.23,31,Former,Never,High
+700,68,Female,Arthritis,Medication,228.56,27,Current,Never,Low
+701,80,Male,Diabetes,Medication,99.48,17,Former,Never,Moderate
+702,69,Female,Diabetes,Medication,91.91,22,Never,Current,High
+703,55,Female,Heart Disease,Medication,225.45,38,Former,Never,High
+704,96,Female,Heart Disease,Surgery,3605.4,45,Former,Never,Low
+705,47,Male,Arthritis,Medication,197.81,36,Current,Current,Moderate
+706,68,Male,Heart Disease,Medication,202.66,23,Former,Never,Moderate
+707,98,Male,Arthritis,Medication,183.86,26,Current,Never,High
+708,22,Female,Fever,Medication,49.96,1,Former,Former,High
+709,46,Male,Heart Disease,Surgery,4223.18,35,Never,Never,Moderate
+710,21,Male,Fever,Rest,190.66,25,Former,Current,Low
+711,27,Male,Fever,Rest,215.29,33,Current,Former,Moderate
+712,73,Male,Heart Disease,Surgery,4561.39,68,Former,Never,Moderate
+713,34,Male,Cold,Warm Fluids,188.34,21,Former,Current,High
+714,91,Male,Heart Disease,Medication,222.55,37,Never,Never,Low
+715,34,Female,Cold,Warm Fluids,185.18,37,Current,Former,Low
+716,86,Female,Heart Disease,Surgery,5235.3,32,Never,Current,Low
+717,51,Male,Heart Disease,Medication,185.54,37,Former,Former,High
+718,23,Male,Fever,Rest,193.68,36,Never,Current,Low
+719,70,Female,Diabetes,Medication,103.08,24,Former,Current,Low
+720,83,Female,Arthritis,Physical Therapy,206.77,31,Former,Never,High
+721,94,Male,Arthritis,Physical Therapy,151.73,22,Never,Current,Moderate
+722,60,Male,Arthritis,Medication,209.16,26,Never,Current,Low
+723,92,Male,Diabetes,Medication,98.95,27,Former,Never,Moderate
+724,40,Male,Heart Disease,Surgery,4803.62,46,Never,Current,Low
+725,72,Female,Arthritis,Physical Therapy,210.05,20,Never,Current,Moderate
+726,97,Male,Arthritis,Physical Therapy,207.88,23,Former,Current,Moderate
+727,92,Male,Diabetes,Diet Control,159.85,20,Current,Current,High
+728,33,Male,Cold,Warm Fluids,178.78,32,Never,Never,High
+729,25,Male,Cold,Medication,49.64,6,Never,Never,Low
+730,21,Female,Cold,Medication,61.76,4,Current,Former,Low
+731,21,Female,Cold,Warm Fluids,184.21,36,Never,Current,High
+732,73,Female,Heart Disease,Surgery,5446.39,77,Former,Never,Low
+733,42,Male,Diabetes,Diet Control,194.87,26,Never,Current,Low
+734,84,Male,Arthritis,Medication,217.71,38,Former,Never,High
+735,84,Female,Heart Disease,Surgery,5124.94,53,Current,Former,Moderate
+736,44,Male,Heart Disease,Medication,205.57,37,Current,Current,Low
+737,49,Male,Heart Disease,Surgery,5274.04,56,Current,Former,High
+738,67,Female,Heart Disease,Surgery,5064.68,83,Never,Former,Low
+739,78,Female,Diabetes,Diet Control,217.84,31,Current,Former,Low
+740,68,Female,Diabetes,Diet Control,204.36,31,Never,Never,High
+741,36,Female,Cold,Warm Fluids,194.11,36,Never,Current,High
+742,38,Male,Fever,Medication,50.46,4,Never,Never,Low
+743,22,Male,Fever,Medication,43.91,3,Current,Never,Low
+744,99,Female,Arthritis,Physical Therapy,177.81,21,Current,Current,Moderate
+745,59,Male,Heart Disease,Medication,215.23,27,Never,Current,Moderate
+746,78,Female,Arthritis,Physical Therapy,224.41,33,Current,Current,High
+747,39,Female,Fever,Medication,59.88,4,Never,Current,Low
+748,38,Male,Injury,Physical Therapy,249.72,22,Current,Never,High
+749,87,Female,Heart Disease,Surgery,5237.36,77,Former,Current,High
+750,18,Male,Fever,Rest,211.93,26,Current,Current,Low
+751,22,Male,Fever,Rest,176.37,30,Current,Current,Moderate
+752,29,Male,Injury,Surgery,11469.68,106,Current,Former,High
+753,63,Male,Arthritis,Medication,170.45,21,Never,Current,High
+754,51,Female,Diabetes,Medication,109.71,28,Never,Current,Low
+755,66,Male,Heart Disease,Medication,192.89,30,Former,Never,Moderate
+756,95,Female,Arthritis,Physical Therapy,158.91,27,Former,Former,Moderate
+757,62,Female,Arthritis,Medication,186.3,32,Former,Never,Low
+758,44,Female,Arthritis,Medication,235.86,30,Never,Former,High
+759,90,Female,Diabetes,Medication,102.18,24,Former,Never,Low
+760,43,Male,Diabetes,Diet Control,215.38,34,Former,Never,Low
+761,64,Male,Heart Disease,Medication,202.51,20,Current,Current,Moderate
+762,73,Female,Diabetes,Diet Control,196.37,38,Former,Current,High
+763,80,Female,Diabetes,Diet Control,200.31,35,Current,Former,High
+764,65,Male,Heart Disease,Surgery,4714.19,38,Never,Former,Moderate
+765,78,Female,Arthritis,Physical Therapy,178.07,32,Never,Former,High
+766,98,Male,Arthritis,Physical Therapy,215.26,23,Current,Current,High
+767,43,Female,Heart Disease,Medication,222.44,30,Former,Never,Low
+768,53,Male,Arthritis,Physical Therapy,196.07,37,Never,Former,Low
+769,18,Female,Cold,Medication,63.58,3,Current,Current,Low
+770,25,Female,Cold,Medication,59.94,5,Never,Current,High
+771,69,Male,Heart Disease,Surgery,5676.37,53,Never,Never,High
+772,96,Female,Heart Disease,Medication,190.95,32,Former,Never,High
+773,64,Female,Arthritis,Medication,213.07,33,Never,Current,High
+774,73,Male,Heart Disease,Medication,196.21,26,Current,Never,Moderate
+775,31,Female,Cold,Medication,67.34,5,Former,Never,Moderate
+776,45,Male,Heart Disease,Medication,184.71,22,Current,Current,High
+777,95,Male,Arthritis,Physical Therapy,180.59,21,Current,Former,Low
+778,19,Female,Cold,Warm Fluids,214.8,38,Current,Former,Low
+779,43,Female,Heart Disease,Surgery,4433.42,63,Former,Current,Moderate
+780,31,Female,Cold,Warm Fluids,209.25,24,Never,Former,Moderate
+781,76,Female,Arthritis,Physical Therapy,201.81,22,Current,Current,High
+782,73,Female,Arthritis,Physical Therapy,215.05,21,Never,Current,High
+783,24,Female,Cold,Warm Fluids,187.8,25,Never,Never,High
+784,20,Female,Cold,Medication,65.64,4,Current,Former,High
+785,40,Male,Diabetes,Medication,114.97,28,Never,Current,High
+786,35,Female,Fever,Medication,54.85,3,Former,Former,Low
+787,55,Male,Arthritis,Physical Therapy,167.72,30,Former,Former,Low
+788,32,Female,Fever,Rest,248.58,22,Never,Former,High
+789,81,Female,Diabetes,Medication,100.99,17,Never,Current,Low
+790,45,Male,Diabetes,Diet Control,204.46,27,Former,Never,High
+791,91,Female,Arthritis,Medication,187.91,30,Never,Former,High
+792,56,Female,Heart Disease,Medication,168.62,37,Never,Current,Moderate
+793,74,Male,Heart Disease,Medication,189.43,20,Never,Former,Low
+794,34,Female,Cold,Warm Fluids,192.69,34,Never,Never,Low
+795,61,Female,Diabetes,Diet Control,203.66,23,Current,Former,Moderate
+796,42,Female,Arthritis,Medication,222.42,23,Never,Current,Low
+797,34,Male,Cold,Warm Fluids,203.81,29,Former,Former,Moderate
+798,30,Female,Fever,Medication,51.99,1,Current,Former,Low
+799,42,Female,Arthritis,Medication,207.69,37,Current,Former,High
+800,85,Female,Arthritis,Medication,164.9,34,Former,Never,Moderate
+801,27,Female,Fever,Rest,166.75,22,Never,Former,High
+802,84,Male,Diabetes,Diet Control,170.06,26,Current,Current,High
+803,35,Male,Injury,Physical Therapy,192.53,26,Current,Former,Low
+804,51,Female,Heart Disease,Medication,162.57,36,Never,Former,Moderate
+805,25,Female,Cold,Warm Fluids,186.2,39,Never,Former,High
+806,57,Male,Heart Disease,Surgery,5526.38,39,Former,Never,High
+807,59,Male,Arthritis,Medication,209.75,35,Current,Current,Moderate
+808,58,Female,Heart Disease,Medication,208.75,27,Never,Former,Low
+809,23,Male,Fever,Rest,193.99,22,Never,Current,High
+810,69,Female,Heart Disease,Surgery,5421.99,66,Former,Current,Low
+811,43,Male,Diabetes,Medication,101.87,21,Current,Never,Moderate
+812,81,Male,Heart Disease,Surgery,6445.83,74,Never,Current,Low
+813,76,Male,Heart Disease,Surgery,5396.97,79,Former,Former,Moderate
+814,73,Male,Heart Disease,Surgery,4851.85,60,Current,Never,Low
+815,76,Female,Diabetes,Medication,112.86,18,Current,Never,Low
+816,87,Male,Heart Disease,Medication,203.3,33,Current,Current,High
+817,50,Male,Diabetes,Medication,89.97,19,Current,Never,Low
+818,70,Female,Arthritis,Physical Therapy,185.14,34,Former,Current,High
+819,39,Male,Injury,Physical Therapy,227.11,26,Never,Current,Moderate
+820,38,Male,Cold,Warm Fluids,203.33,32,Current,Never,Moderate
+821,87,Female,Diabetes,Medication,116.51,16,Current,Former,High
+822,87,Male,Heart Disease,Surgery,5419.27,76,Never,Current,Low
+823,21,Female,Cold,Warm Fluids,175.18,28,Current,Never,Moderate
+824,92,Female,Diabetes,Medication,75.65,20,Current,Never,Moderate
+825,79,Female,Heart Disease,Surgery,4850.19,43,Never,Current,Moderate
+826,79,Female,Arthritis,Medication,203.84,39,Never,Current,High
+827,41,Male,Diabetes,Diet Control,185.25,39,Current,Current,Moderate
+828,72,Female,Diabetes,Medication,107.63,22,Never,Current,Moderate
+829,26,Male,Fever,Rest,223.55,39,Former,Former,Moderate
+830,20,Male,Injury,Physical Therapy,166.54,26,Former,Former,Moderate
+831,48,Male,Heart Disease,Surgery,4315.01,49,Current,Former,High
+832,57,Male,Heart Disease,Medication,224.92,27,Current,Former,High
+833,53,Male,Diabetes,Diet Control,170.73,27,Never,Never,Low
+834,41,Male,Arthritis,Physical Therapy,192.4,21,Never,Current,Moderate
+835,23,Male,Fever,Rest,212.17,33,Current,Never,High
+836,83,Male,Arthritis,Medication,198.82,29,Current,Never,Low
+837,92,Male,Diabetes,Diet Control,198.53,37,Former,Former,Low
+838,21,Male,Cold,Medication,59.25,5,Never,Never,Moderate
+839,96,Female,Arthritis,Medication,250.37,37,Current,Former,Low
+840,23,Female,Cold,Medication,61.97,4,Current,Current,High
+841,68,Female,Heart Disease,Surgery,4471.61,86,Never,Former,Low
+842,79,Male,Heart Disease,Surgery,5432.29,37,Never,Current,Low
+843,74,Female,Diabetes,Medication,82.45,12,Current,Former,High
+844,83,Female,Arthritis,Physical Therapy,199.61,24,Current,Never,Low
+845,96,Female,Diabetes,Medication,107.47,15,Current,Never,Low
+846,92,Male,Heart Disease,Surgery,4476.1,70,Never,Former,Low
+847,25,Male,Fever,Medication,56.42,2,Current,Current,Low
+848,43,Male,Diabetes,Diet Control,192.41,32,Current,Current,Moderate
+849,68,Male,Diabetes,Medication,107.75,17,Current,Former,Moderate
+850,62,Female,Heart Disease,Surgery,5235.44,89,Former,Never,High
+851,61,Female,Diabetes,Medication,88.86,10,Former,Current,Low
+852,22,Female,Fever,Rest,184.77,36,Never,Former,High
+853,87,Female,Diabetes,Diet Control,215.56,34,Current,Current,Moderate
+854,43,Male,Diabetes,Diet Control,197.11,31,Current,Never,Low
+855,85,Male,Diabetes,Medication,96.06,13,Never,Current,Low
+856,36,Male,Injury,Surgery,10234.24,72,Never,Former,Moderate
+857,37,Female,Cold,Warm Fluids,226.27,30,Never,Current,Low
+858,29,Male,Injury,Surgery,10625.97,65,Current,Current,Low
+859,64,Male,Heart Disease,Surgery,5111.76,53,Former,Never,Moderate
+860,18,Female,Fever,Rest,171.79,30,Never,Never,High
+861,31,Female,Fever,Medication,48.94,1,Current,Never,High
+862,81,Male,Heart Disease,Medication,199.87,20,Never,Never,Low
+863,55,Male,Heart Disease,Surgery,5035.06,51,Current,Former,Moderate
+864,54,Male,Arthritis,Physical Therapy,179.49,24,Never,Current,High
+865,28,Male,Fever,Medication,44.09,3,Current,Current,High
+866,94,Male,Arthritis,Medication,214.56,31,Never,Current,Low
+867,20,Male,Injury,Surgery,11797.73,118,Former,Current,High
+868,50,Female,Arthritis,Physical Therapy,158.79,26,Never,Former,Moderate
+869,23,Female,Cold,Medication,59.35,3,Never,Never,High
+870,67,Female,Diabetes,Diet Control,214.64,20,Former,Current,Moderate
+871,27,Male,Fever,Medication,47.28,2,Never,Current,Moderate
+872,22,Female,Cold,Medication,69.49,6,Former,Never,Low
+873,40,Male,Diabetes,Medication,95.8,21,Current,Never,High
+874,27,Male,Injury,Surgery,11652.75,111,Former,Current,Low
+875,61,Female,Diabetes,Medication,95.98,27,Former,Never,High
+876,19,Male,Fever,Medication,49.87,3,Current,Current,Low
+877,30,Male,Injury,Physical Therapy,199.62,30,Former,Current,Low
+878,57,Female,Arthritis,Physical Therapy,189.51,24,Former,Current,Low
+879,19,Female,Fever,Medication,39.9,1,Current,Current,High
+880,82,Female,Arthritis,Medication,190.45,27,Never,Current,Low
+881,80,Male,Arthritis,Physical Therapy,179.89,33,Never,Current,Moderate
+882,90,Female,Heart Disease,Surgery,5707.94,52,Former,Never,High
+883,34,Female,Fever,Medication,51.87,1,Never,Former,Moderate
+884,26,Male,Injury,Physical Therapy,148.0,20,Never,Former,Low
+885,92,Female,Arthritis,Physical Therapy,225.09,20,Former,Current,Low
+886,32,Female,Cold,Warm Fluids,225.03,27,Current,Never,Moderate
+887,41,Female,Diabetes,Medication,115.23,25,Never,Current,Low
+888,55,Male,Arthritis,Physical Therapy,212.63,37,Former,Never,High
+889,52,Male,Arthritis,Physical Therapy,243.19,29,Current,Current,Moderate
+890,66,Male,Arthritis,Medication,180.74,31,Never,Current,High
+891,86,Male,Diabetes,Medication,101.31,16,Current,Former,High
+892,79,Female,Diabetes,Medication,94.59,14,Former,Never,High
+893,77,Male,Heart Disease,Medication,243.63,24,Current,Never,Low
+894,67,Male,Diabetes,Diet Control,192.68,35,Current,Former,Low
+895,95,Female,Diabetes,Diet Control,240.2,31,Former,Former,Moderate
+896,92,Female,Arthritis,Physical Therapy,216.05,25,Never,Former,Moderate
+897,26,Female,Cold,Medication,71.3,4,Never,Former,High
+898,51,Male,Arthritis,Physical Therapy,215.4,20,Current,Never,Low
+899,93,Male,Arthritis,Medication,206.11,38,Current,Never,Low
+900,52,Male,Diabetes,Diet Control,244.19,29,Current,Former,Low
+901,18,Female,Cold,Medication,62.03,4,Current,Current,Moderate
+902,57,Female,Heart Disease,Medication,238.05,22,Never,Current,Low
+903,81,Male,Diabetes,Diet Control,241.21,25,Former,Current,High
+904,39,Female,Cold,Medication,47.37,4,Former,Current,High
+905,77,Female,Arthritis,Physical Therapy,198.57,36,Former,Never,High
+906,81,Female,Arthritis,Medication,204.89,37,Current,Never,Low
+907,89,Male,Diabetes,Medication,69.82,23,Current,Never,High
+908,28,Female,Fever,Rest,190.95,24,Former,Current,High
+909,31,Female,Cold,Medication,56.95,4,Never,Former,Moderate
+910,77,Male,Arthritis,Physical Therapy,171.47,31,Former,Current,Moderate
+911,47,Male,Diabetes,Diet Control,194.04,39,Never,Never,Low
+912,52,Female,Heart Disease,Medication,238.9,28,Current,Current,Low
+913,54,Female,Diabetes,Diet Control,196.91,22,Former,Former,Low
+914,22,Male,Injury,Surgery,10012.37,81,Former,Former,Low
+915,95,Male,Arthritis,Medication,211.33,34,Current,Current,Low
+916,43,Female,Arthritis,Medication,193.85,29,Never,Never,Moderate
+917,79,Female,Diabetes,Diet Control,196.9,33,Former,Never,Moderate
+918,21,Female,Fever,Rest,203.34,26,Former,Never,Moderate
+919,59,Female,Heart Disease,Surgery,5167.08,88,Never,Current,High
+920,35,Male,Fever,Rest,218.94,24,Former,Never,High
+921,57,Female,Diabetes,Diet Control,197.63,39,Former,Current,Moderate
+922,89,Female,Diabetes,Medication,87.91,11,Current,Never,Moderate
+923,56,Male,Diabetes,Diet Control,207.76,22,Never,Former,Low
+924,31,Female,Fever,Rest,196.75,36,Former,Former,Moderate
+925,49,Male,Heart Disease,Surgery,4080.22,88,Former,Never,Low
+926,68,Female,Heart Disease,Medication,204.02,25,Current,Current,Moderate
+927,55,Female,Heart Disease,Medication,229.52,24,Former,Never,Low
+928,40,Male,Heart Disease,Medication,201.25,35,Current,Current,Moderate
+929,80,Male,Arthritis,Physical Therapy,205.76,30,Former,Former,Low
+930,32,Female,Cold,Medication,58.6,6,Current,Current,High
+931,42,Female,Heart Disease,Medication,199.06,24,Never,Never,High
+932,34,Female,Fever,Medication,51.7,4,Never,Former,Low
+933,83,Male,Heart Disease,Surgery,5800.28,46,Former,Current,Low
+934,95,Female,Diabetes,Medication,97.85,26,Former,Current,High
+935,70,Male,Heart Disease,Surgery,4734.6,70,Current,Former,Moderate
+936,68,Male,Heart Disease,Surgery,4392.36,51,Current,Never,Low
+937,56,Female,Diabetes,Medication,98.44,23,Never,Former,Moderate
+938,68,Male,Diabetes,Diet Control,217.53,21,Former,Never,High
+939,87,Female,Diabetes,Medication,84.59,18,Current,Never,High
+940,23,Female,Fever,Medication,49.07,2,Never,Current,Low
+941,84,Female,Heart Disease,Medication,202.95,21,Never,Never,Moderate
+942,24,Female,Fever,Rest,180.76,24,Current,Never,High
+943,68,Female,Diabetes,Diet Control,192.19,29,Former,Former,Moderate
+944,89,Male,Arthritis,Physical Therapy,226.62,20,Never,Former,High
+945,59,Male,Diabetes,Medication,89.88,25,Current,Never,Low
+946,81,Female,Diabetes,Medication,94.65,12,Never,Current,Moderate
+947,32,Female,Fever,Medication,47.13,1,Former,Former,Moderate
+948,46,Male,Arthritis,Physical Therapy,195.44,33,Current,Current,Low
+949,50,Male,Heart Disease,Medication,205.64,33,Former,Former,Low
+950,44,Male,Arthritis,Medication,171.41,37,Former,Former,Low
+951,53,Male,Heart Disease,Surgery,4817.85,47,Never,Never,Low
+952,46,Female,Arthritis,Medication,220.71,20,Former,Former,High
+953,55,Female,Arthritis,Medication,198.55,35,Never,Former,Moderate
+954,74,Male,Heart Disease,Medication,183.0,37,Current,Current,High
+955,44,Female,Arthritis,Physical Therapy,183.83,35,Current,Former,Low
+956,72,Male,Heart Disease,Medication,214.42,25,Never,Former,High
+957,50,Female,Arthritis,Physical Therapy,189.64,29,Never,Current,High
+958,85,Male,Diabetes,Diet Control,210.22,21,Never,Never,Moderate
+959,83,Female,Arthritis,Physical Therapy,187.46,26,Former,Never,Moderate
+960,27,Male,Cold,Warm Fluids,177.4,36,Current,Former,Moderate
+961,22,Male,Fever,Medication,64.08,1,Current,Former,Low
+962,91,Female,Heart Disease,Surgery,4487.53,77,Former,Current,Low
+963,55,Male,Heart Disease,Medication,213.7,31,Never,Never,Moderate
+964,30,Female,Fever,Medication,41.51,4,Current,Never,High
+965,48,Female,Diabetes,Diet Control,192.84,26,Former,Never,Moderate
+966,64,Male,Heart Disease,Surgery,4754.6,48,Never,Current,Low
+967,69,Female,Arthritis,Physical Therapy,192.22,38,Current,Current,High
+968,73,Female,Heart Disease,Medication,212.67,31,Never,Current,Low
+969,32,Female,Cold,Warm Fluids,204.67,28,Former,Former,Moderate
+970,46,Female,Arthritis,Physical Therapy,187.52,33,Current,Never,Moderate
+971,25,Female,Cold,Warm Fluids,185.85,21,Never,Former,High
+972,22,Male,Fever,Medication,50.84,3,Never,Former,Moderate
+973,46,Female,Arthritis,Medication,223.24,38,Never,Current,Low
+974,64,Female,Heart Disease,Surgery,5047.2,83,Former,Never,Low
+975,85,Female,Heart Disease,Medication,181.14,36,Never,Former,Low
+976,93,Female,Diabetes,Medication,88.58,28,Current,Never,High
+977,62,Female,Heart Disease,Surgery,6067.84,73,Current,Former,Low
+978,19,Male,Cold,Warm Fluids,188.07,38,Never,Current,Moderate
+979,44,Female,Diabetes,Diet Control,163.67,27,Former,Former,High
+980,53,Male,Arthritis,Medication,215.8,39,Current,Current,Low
+981,53,Male,Heart Disease,Medication,190.88,25,Current,Never,Low
+982,43,Male,Diabetes,Diet Control,209.24,31,Current,Former,Moderate
+983,60,Male,Arthritis,Physical Therapy,193.68,37,Never,Former,Moderate
+984,44,Female,Diabetes,Diet Control,199.54,21,Current,Current,High
+985,86,Male,Diabetes,Medication,95.17,13,Never,Current,Low
+986,37,Male,Cold,Warm Fluids,199.43,29,Never,Never,Low
+987,28,Female,Fever,Rest,182.58,22,Never,Current,Moderate
+988,91,Female,Diabetes,Medication,105.69,21,Never,Never,High
+989,55,Female,Diabetes,Medication,93.83,11,Never,Former,Moderate
+990,23,Male,Injury,Surgery,10930.87,117,Current,Never,Moderate
+991,89,Female,Diabetes,Diet Control,205.82,27,Never,Never,High
+992,40,Female,Diabetes,Diet Control,173.61,24,Never,Never,Low
+993,64,Male,Diabetes,Medication,103.97,12,Never,Former,Low
+994,63,Female,Arthritis,Medication,213.29,29,Never,Former,Low
+995,29,Female,Cold,Warm Fluids,205.37,22,Never,Current,High
+996,30,Female,Fever,Medication,52.99,3,Never,Never,High
+997,79,Female,Arthritis,Physical Therapy,197.2,31,Current,Former,High
+998,99,Male,Heart Disease,Surgery,5119.13,76,Never,Never,High
+999,77,Female,Diabetes,Diet Control,227.94,38,Never,Never,High
+1000,60,Female,Arthritis,Physical Therapy,206.61,35,Current,Never,Moderate
