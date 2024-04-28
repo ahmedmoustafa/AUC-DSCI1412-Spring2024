@@ -12,8 +12,7 @@ This project allows for collaboration in groups of up to three students. Working
 ## Dataset Selection
 A variety of [datasets](datasets.md) are provided for your consideration in this shared [document](https://docs.google.com/spreadsheets/d/1zWyc_ibqfm0XdZISz0yUG-4TCIp-XFo3hS0RUKsVikk/edit?usp=sharing). Please form your groups and select your preferred datasets from this document. Dataset selection is on a first-come, first-served basis, so act promptly. Once you've chosen a dataset, please sign up in the shared document so that it can be marked as taken.
 ## Submission and Presentation
-The deadline for project submissions is May 18. You should submit a Python notebook detailing your analysis. The notebook should be clearly structured, with comments and markdown cells explaining your code and thought process.
-Following this, each group will present their analyses and findings in an oral presentation on May 19. Your presentation should be approximately 15 minutes long and cover the following:
+The deadline for project submissions is **May 19**. You should submit a Python notebook detailing your analysis. The notebook should be clearly structured, with comments and markdown cells explaining your code and thought process. Each group will present their analyses and findings in an oral presentation. Your presentation should be approximately 10 minutes long and cover the following:
 - Introduction: Briefly explain your chosen dataset and the data analysis question(s) you aimed to answer.
 - Methods: Discuss the data analysis methods and models you applied, explaining your choice and any challenges you faced during the data cleaning or preprocessing.
 - Results: Present your findings. Utilize your visualizations to aid in conveying your results.
